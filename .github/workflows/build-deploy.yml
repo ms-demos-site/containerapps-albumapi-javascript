@@ -21,7 +21,7 @@
 
        - name: Confirm if env have REPOSITORY_NAME
          run: | 
-           echo ${{ env.REPOSITORY_NAME }
+           echo ${{ env.REPOSITORY_NAME }}
        # Add a step
        - name: Log in to container registry
          # 認証処理を行うためのアクション
