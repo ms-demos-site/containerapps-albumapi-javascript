@@ -6,7 +6,7 @@
  env:
    CONTAINER_REGISTRY:  acr20240731bqsv5ji76incq.azurecr.io
    # Add envs
-   RESOURCE_GROUP_NAME: handson-cicd-demo # 準備タスクで作成されたリソースグループ名をここに記載
+   RESOURCE_GROUP_NAME: 100-capps-handson # 準備タスクで作成されたリソースグループ名をここに記載
    CONTAINERAPP_NAME:  ctapp-demo-api # 準備タスクで作成された API Container App 名 `ctapp-demo-api` をここに記載
  jobs:
    build:
