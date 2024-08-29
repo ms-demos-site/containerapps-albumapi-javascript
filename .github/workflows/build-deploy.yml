@@ -4,7 +4,7 @@
    workflow_dispatch:
  # Add env
  env:
-   CONTAINER_REGISTRY:  cicd2024xumfwkwejgoq4.azurecr.io
+   CONTAINER_REGISTRY:  acr20240731bqsv5ji76incq.azurecr.io
    # Add envs
    RESOURCE_GROUP_NAME: handson-cicd-demo # 準備タスクで作成されたリソースグループ名をここに記載
    CONTAINERAPP_NAME:  ctapp-demo-api # 準備タスクで作成された API Container App 名 `ctapp-demo-api` をここに記載
